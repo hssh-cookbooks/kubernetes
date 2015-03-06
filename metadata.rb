@@ -6,3 +6,5 @@ description      'Installs/Configures kubernetes'
 long_description 'Installs/Configures kubernetes'
 version          '0.1.0'
 supports         'centos', '7.0'
+
+depends 'selinux'
